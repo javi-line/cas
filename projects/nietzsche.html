@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>website.</title>
+        <link rel="stylesheet" href="../assets/style/fonts.css">
+        <link rel="stylesheet" href="../assets/style/generic.css">
+        <link rel="stylesheet" href="../assets/style/nietzsche.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <header class="top-bar">
+            <button id="menu-btn" class="hamburger">≡</button>
+            <a href="../index.html"><div class="logo">website.</div></a>
+            <div class="right-buttons">
+                <a href="projects.html"><button class="clean">projects</button></a>
+                <button class="clean">source</button>
+            </div>
+        </header>
+        <h1 class="title">nietzsche quote generator.</h1>
+        <p class="text">Click the dice to generate a random quote by Friedrich Nietzsche.</p>
+        <hr>
+        <div class="quote-box">
+            <div class="setting-bar">
+                <button id="dice" onclick="generateQuote()">🎲</button>
+            </div>
+            <div class="quote-text" id="quote">
+                “He who has a why to live can bear almost any how.” (Twilight of the Idols, or, How to Philosophize with a Hammer, 1889)
+            </div>
+            <div class="quote-sub" id="quote-sub">
+                „Hat man sein Warum des Lebens, so verträgt man sich fast mit jedem Wie.” (Götzen-Dämmerung, oder, Wie man mit dem Hammer philosophiert, 1889)
+            </div>
+        </div>
+
+        <script src="../assets/scripts/nietz.js"></script>
+    </body>
+</html>

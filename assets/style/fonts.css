@@ -1,0 +1,81 @@
+/* 
+This CSS file contains the fonts that I'm finna use, it's a reference file that states the parameters of the custom fonts I load in.
+CAUTION: HTML hierarchies are weird, make sure to load the font .css before any other stylesheet. It should look something like:
+<head>
+  <link rel="stylesheet" href="/relativepath/fonts.css" />
+  <link rel="stylesheet" href="relativepath/YourActualStylesheet.css" />
+</head>
+
+Notes for myself:
+.ttf = format("truetype")
+.otf = format("opentype")
+
+font-style: normal, italic, oblique
+font-weight: normal, bold, <number>
+*/
+
+/* HELVETICA */
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/Helvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/Helvetica-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/Helvetica-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: "HelveticaCompressed";
+  src: url("../fonts/Helvetica/helvetica-compressed.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaRoundedBold";
+  src: url("../fonts/Helvetica/helvetica-rounded-bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/Helvetica/helvetica-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MISC */
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("../fonts/Minecraft.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LucidaConsole";
+  src: url(../fonts/lucon.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

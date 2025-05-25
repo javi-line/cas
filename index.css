@@ -1,0 +1,115 @@
+body {
+    padding-top: 50px;
+    background-color: #121212;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 50px;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    box-shadow: 0 2px 5x rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.hamburger {
+    background-color: #1f1f1f;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.logo {
+    font-family: "HelveticaRoundedBold";
+    font-weight: normal;
+    text-align: center;
+    flex-grow: 1;
+    font-size:30px;
+    color: #ffffff;
+}
+
+.right-buttons button {
+    margin-left: 10px;
+}
+
+.text {
+    color: #ffffff;
+    font-family: "Helvetica";
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+button.clean {
+    all: unset;
+    font-family: "Helvetica";
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+button.clean:hover {
+    color: #36404A;
+}
+
+@keyframes softShiftNGlow {
+    0% {color: #C599B6; text-shadow: 0 0 5px #C599B6;}
+    25% {color: #E6B2BA; text-shadow: 0 0 10px #E6B2BA;}
+    50% {color: #FAD0C4; text-shadow: 0 0 15px #C599B6;}
+    75% {color: #F8F3D9; text-shadow: 0 0 10px #F8F3D9;}
+    100% {color: #FFF7F3; text-shadow: 0 0 5px #FFF7F3;}
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 60px;
+    padding: 5px
+}
+
+#hello {
+    color: #C599B6;
+    animation: softShiftNGlow 5s infinite ease-in-out;
+}
+
+#what {
+    font-family: "Helvetica";
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+#flipper {
+    font-family: "LucidaConsole";
+    font-size: 15px;
+    font-weight: normal;
+    color: #FA8072;
+    text-align: center;
+    border-style: solid;
+    border-color: #36404A;
+    background-color: #1f1f1f;
+    float: center;
+    padding: 7px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
